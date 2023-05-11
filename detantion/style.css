@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****** Generic *******/
+
+body{
+    background:#0000aa;
+    color:#ffffff;
+    font-family:courier;
+    font-size:10pt;
+    text-align:center;
+    margin:0px;
+}
+
+html#generic {
+	-webkit-user-select: none; /* Safari 3.1+ */
+	-moz-user-select: none; /* Firefox 2+ */
+	-ms-user-select: none; /* IE 10+ */
+	user-select: none; /* Standard syntax */
+	cursor: none; /* invisible cursor */
+}
+
+
+
+.blink {
+    animation: blink 1s linear infinite;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+#prankDiv{
+    margin-bottom: 20px;
+    color:#fff;
+    font-weight:bold;
+    text-align: center;
+    
+}
+
+.neg {
+    background:#fff;
+    color:#0000aa;
+    font-weight:bold;
+}
+
+span.neg{
+    padding:2px 8px;
+}
+
+.neg2 {
+    background:#FF0000;
+    color:#fff;
+    font-weight:bold;
+}
+
+span.neg2{
+    padding:2px 8px;
+}
+
+p {
+    margin:30px 100px;
+    text-align:left;
+}
+
+p.center {
+    text-align:center;
+}
+
+a,a:hover {
+    color:inherit;
+    font:inherit;
+	text-decoration: none;
+}
+
+
+
+#sadface {
+	display: block;
+	width: 100%;
+	height:219px;
+	margin:30px 100px;
+	background-image: url('images/sadface.png');
+	background-repeat: no-repeat;
+}
